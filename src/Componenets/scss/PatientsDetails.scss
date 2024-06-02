@@ -1,0 +1,66 @@
+.container-profile{
+    background-color: #FFFFFF;
+    display: flex;
+    width: 367px;
+height: 840px;
+border-radius: 18px;
+
+    .profile-setup {
+        margin: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    
+         img {
+        width: 42px;
+        height: 42px
+        } 
+      
+    .profile-pics{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-about{
+        display: flex;
+        gap: 5px;
+        
+        
+       
+    }
+     .profile-text{
+        margin-top: 10px;
+        display: flex;
+        // flex-direction: column;
+        gap: 7px;
+        
+     }
+    
+     button{
+        background: $activestate_bg_1;
+        border-radius: 41px;
+        padding: 10px ;
+        opacity: 1;
+        border: none;
+     }
+    
+    .table-test{
+        margin: 10px 5px;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+    
+        &:hover{
+            background: $unnamed-color-707070;
+            border-radius: 5px;
+        }
+        img{
+            width: 15px;
+            height: 15px;
+        }
+    }
+    
+        }
+    
+}
+

@@ -1,0 +1,45 @@
+@import './variable';
+@import './navigation';
+@import './patients';
+@import './PatientsDetails.scss';
+@import './chart';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $unnamed-font-family-manrope;
+    background: $unnamed-color-f6f6f6;
+    font-size: 78%;
+    
+}
+
+
+Copy code
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+
+.details {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+   
+  }
+
+
+// .chart {
+//   width: 50%;
+  
+// }

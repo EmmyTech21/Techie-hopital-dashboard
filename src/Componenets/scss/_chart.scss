@@ -1,0 +1,84 @@
+.charts {
+    width: 666px;
+    height: 673px;
+    background-color: #FFFFFF;
+   
+    border-radius: 18px;
+
+
+    .cha {
+        background-color: $unnamed-color-cbc8d4;
+        margin-top: 20px;
+    }
+.heart_container {
+    display: flex;
+    gap: 10px;
+    width: 766px;
+.heart_de{
+    width: 228px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.color1{
+    background-color: #E0F3FA;
+}
+.color2{
+    background-color: #FFE6E9;
+}
+
+.color3{
+    background: #FFE6F1;
+}
+}
+
+.heart_de p{
+    margin-left: 20px;
+    font-size: $unnamed-font-size-14;
+    font-size: $unnamed-font-family-manrope;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+    text-align: left;
+
+}
+
+.heart_de h3 {
+    margin: 10px 20px;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    font-weight: $unnamed-font-weight-800;
+}
+
+.heart_de img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.table-1{
+    background-color: $unnamed-color-ffffff;
+    margin-top: 50px;
+    background: none;
+    width: 766px;
+    height: 349px;
+
+  th{
+        width: 766px; 
+        padding: 10px 5px;
+        background-color: #F6F7F8;
+       
+    }
+ }
+
+ td{
+    background-color: $unnamed-color-ffffff;
+    padding: 10px 5px;
+
+}
+ 
+
+}
